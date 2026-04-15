@@ -96,7 +96,9 @@ Building end-to-end ETL workflows
 Integrating cloud storage (S3) with processing engines
 Applying data validation and transformation techniques
 
-📂 Project Structure
+## 📂 Project Structure
+
+```bash
 databricks-lakehouse-pipeline/
 │
 ├── notebooks/
@@ -114,13 +116,14 @@ databricks-lakehouse-pipeline/
 │       ├── city_views.sql
 │
 ├── images/
-│   ├── data_ingestion/        # AWS S3 ingestion screenshots
-│   ├── bronze/                # Raw data (Bronze layer)
-│   ├── silver/                # Cleaned & transformed data
-│   ├── gold/                  # Fact tables & analytics output
-│   ├── master/                # Final master dataset views
+│   ├── data_ingestion/
+│   ├── bronze/
+│   ├── silver/
+│   ├── gold/
+│   ├── master/
 │
 ├── README.md
+```
 
 👤 Author
 Naga Revathi Settipalli
